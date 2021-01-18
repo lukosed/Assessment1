@@ -1,11 +1,14 @@
 package com.simplilearn.assessment;
+
 import java.io.IOException;
 import java.nio.file.*;
 import java.util.Scanner;
+
 public class CreateFileE {
 	
+	
 void fileCreate() {
-	String paath = "C:\\Program Files";
+	String paath = "C:\\Users\\Merin\\Desktop\\todelete\\";
 	Scanner sc = new Scanner(System.in); // object of Scanner class
 	System.out.println(" ");
 	System.out.print("Enter the file name: ");
@@ -17,7 +20,8 @@ void fileCreate() {
 	{
 		Path p = Files.createFile(path); // creates file at specified location
 		System.out.println("File Created at Path: " + p);
-	}catch(IOException e)
+	}catch(
+	IOException e)
 	{System.out.println(" ");
 		System.out.println("File exists");
 		System.out.println(" ");

@@ -120,8 +120,11 @@ public class CompanyLockers {
 	}
 
 	void warning() {
+		System.out.println(" ");
 		System.out.println("<<<<<<<<<<Invalid Selection>>>>>>>>>>>>>");
+		System.out.println(" ");
 		System.out.println("----------Please TRY AGAIN------------");
+		System.out.println(" ");
 	}
 
 	public static void main(String[] args) throws IOException {
