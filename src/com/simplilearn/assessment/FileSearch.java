@@ -23,7 +23,7 @@ public class FileSearch {
 
 			for (File file2 : list) {
 
-				String loc = "C:\\Users\\Merin\\Desktop\\todelete\\";
+				String loc = "C:\\Program Files";
 				loc = loc + name;
 				File finaLoc = new File(loc);
 
