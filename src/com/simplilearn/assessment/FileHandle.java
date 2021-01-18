@@ -13,7 +13,7 @@ public class FileHandle {
 		 // System.out.println(" enter directory path  (Example: C:\\Users\\*)    ");
 		 // String l=location.nextLine();
 		 
-		File fileDir = new File("C:\\Users\\Merin\\Desktop\\todelete");
+		File fileDir = new File("C:\\Program Files");
 		if (fileDir.isDirectory()) {
 			List<String> listFile = Arrays.asList(fileDir.list());
 			Collections.sort(listFile);

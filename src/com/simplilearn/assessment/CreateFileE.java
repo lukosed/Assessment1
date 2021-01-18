@@ -8,7 +8,7 @@ public class CreateFileE {
 	
 	
 void fileCreate() {
-	String paath = "C:\\Users\\Merin\\Desktop\\todelete\\";
+	String paath = "C:\\Program Files";
 	Scanner sc = new Scanner(System.in); // object of Scanner class
 	System.out.println(" ");
 	System.out.print("Enter the file name: ");

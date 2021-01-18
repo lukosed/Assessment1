@@ -13,7 +13,7 @@ public class FileSearch {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the file to be searched.. ");
 		String name = scan.next();
-		fs.findFile(name, new File("C:\\Users\\Merin\\Desktop\\todelete"));
+		fs.findFile(name, new File("C:\\Program Files"));
 	}
 
 	public void findFile(String name, File file1) throws IOException {
