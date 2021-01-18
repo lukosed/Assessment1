@@ -10,9 +10,13 @@ public class CompanyLockers {
 		System.out.println(" ");
 		System.out.println(" ");
 		System.out.println(
-				"===================Welcome to Company Lockers Pvt Ltd==========================================");
-		System.out.println("");
-		System.out.println("                    				Developer: Dileep Lukose");
+				"=====================================================================================================");
+		System.out.println("|+|                              Welcome to Company Lockers Pvt Ltd                              |+|");
+		System.out.println("|+|"+"                                                                                              "+"|+|");
+		System.out.println("|+|"+"                    				Developer: Dileep Lukose                         |+|");
+		System.out.println(
+				"=====================================================================================================");
+		
 	}
 
 	void mainMenuDisplay() {
