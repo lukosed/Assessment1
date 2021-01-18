@@ -12,8 +12,8 @@ public class FileSearch {
 		FileSearch fs = new FileSearch();
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the file to be searched.. ");
-		String name = scan.next();
-		fs.findFile(name, new File("C:\\Program Files"));
+		String name = scan.nextLine();
+		fs.findFile(name, new File("C:\\temp\\"));
 	}
 
 	public void findFile(String name, File file1) throws IOException {
@@ -23,7 +23,7 @@ public class FileSearch {
 
 			for (File file2 : list) {
 
-				String loc = "C:\\Program Files";
+				String loc = "C:\\temp\\";
 				loc = loc + name;
 				File finaLoc = new File(loc);
 

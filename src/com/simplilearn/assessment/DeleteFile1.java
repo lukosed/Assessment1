@@ -14,7 +14,7 @@ public class DeleteFile1 {
     { 
         try
         { 
-        	String pp="C:\\Program Files";
+        	String pp="C:\\temp\\";
         	System.out.println("enter file name to delete");
         	
         	Scanner destFile= new Scanner(System.in);
